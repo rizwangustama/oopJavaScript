@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constructor Function</title>
+</head>
+<body>
+  <script>
+    // Membuat object
+    // Sebenarnya sudah pernah belajar tipe data object dengan cara membuat variable dengan tipe data object
+    // namun membuat object  menggunakan tipe data object, akan membuta object yang selalu unik, sedangkan dalam oop,
+    // biasanya kita akan membuat class dengan cetakan, sehingga bisa membuat object dengan karakteristik yang sama berkali kali, tanpa harus
+    // mendeklarasikan object berkali-kali menggunakan tipe data object
+
+    // Kode membuat Object dengan Object
+    // dibahas di tutorial javaScript dasar
+    const rizwan = {
+      firstName: "Rizwan",
+      lastName: "Gustama",
+    }
+
+    const iko = {
+      firstName : "iko",
+      lastName: "uwais",
+    }
+
+    console.info(iko);
+    console.info(rizwan);
+
+
+    // Membuat Constractor Function
+    // -sebelum EcmaScript versi 6, pembuatan kelas, biasanya menggunakan function. Hal ini
+    // dikarenakan sebenarnya javaScript bukanlah bahasa pemrograman yang fokus kedalam OOP
+    // _ untuk membuat class di javaScript kita bisa menggunakan function
+    // - function ini kita debut dengan Constructor Function
+
+    // kode Constructor Function
+    
+    function Person() {
+
+    }
+
+    // Membuat object dari constructor Function
+    // -setelah kita membuat class,  jika kita ingin membuat Object dari class tersebut, kita bisa 
+    // menggunakan kata kunci new, lalu diikuti dengan nama constructor function
+    const name = new Person();
+
+
+  </script>
+</body>
+</html>

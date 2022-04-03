@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Constractor Function</title>
+</head>
+<body>
+<script>
+  // untuk membuat constructor Function harus Diawali dengan Hurup Besar nama functionnya atau variable nya
+  function Person() {
+    this.fistName = "",
+    this.lastName = ""
+  }
+
+  const rizwan = new Person();
+  rizwan.fistName = "Rizwan";
+  rizwan.lastName = "Gustama";
+
+  const iko = new Person();
+  iko.fistName = "iko";
+  iko.lastName = "Uwais";
+  
+  console.log(rizwan);
+  console.log(iko);
+</script>  
+</body>
+</html>
