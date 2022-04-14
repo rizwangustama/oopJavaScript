@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parameter</title>
+</head>
+<body>
+  <script>
+    // Parameter di Constructor Function
+
+    function Person(namaAwal, namaAkhir) {
+      this.firstName = namaAwal,
+      this.lastName = namaAkhir,
+      this.sayHello = function(name) {
+        console.info(`Hello ${name}, my name is ${this.firstName}`);
+      }
+    }
+
+    const rizwan = new Person("Rizwan", "Gustama");
+    console.log(rizwan);
+
+
+  </script>
+</body>
+</html>

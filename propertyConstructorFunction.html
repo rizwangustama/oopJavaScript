@@ -10,20 +10,35 @@
 <script>
   // untuk membuat constructor Function harus Diawali dengan Hurup Besar nama functionnya atau variable nya
   function Person() {
-    this.fistName = "",
+    this.firstName = "",
     this.lastName = ""
+    // this.fistName = "",
+    // this.lastName = ""
   }
 
-  const rizwan = new Person();
-  rizwan.fistName = "Rizwan";
-  rizwan.lastName = "Gustama";
+  const Rizwan = new Person();
+  Rizwan.firstName = "Rizwan Gustama"
+  Rizwan.lastName = "Hamka"
 
-  const iko = new Person();
-  iko.fistName = "iko";
-  iko.lastName = "Uwais";
-  
-  console.log(rizwan);
+  const iko = new Person()
+  // iko.fistName = "Iko Uwais"
+  iko.firstName = "iko",
+  iko.lastName = "Uwais"
+
+  console.log(Rizwan);
   console.log(iko);
+
+
+  // const rizwan = new Person();
+  // rizwan.fistName = "Rizwan";
+  // rizwan.lastName = "Gustama";
+
+  // const iko = new Person();
+  // iko.fistName = "iko";
+  // iko.lastName = "Uwais";
+  
+  // console.log(rizwan);
+  // console.log(iko);
 </script>  
 </body>
 </html>
